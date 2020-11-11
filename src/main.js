@@ -14,7 +14,8 @@ Vue.use(Datetime);
 
 Vue.use(new VueSocketIO({
   debug: true,
-  connection: 'http://192.168.1.8:3000/',
+  // connection: 'http://192.168.1.8:3000/',
+  connection: 'http://646836d8989b.ngrok.io',
   vuex: {
       store,
       actionPrefix: 'SOCKET_',
